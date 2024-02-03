@@ -460,12 +460,12 @@
     }
     #banner_part .banner_con{
         height: 80vh;
+        padding-right: 25px;
     }
     #banner_part .banner_img_con{
         opacity: 0;
         visibility: hidden;
-    }
-    
+    }    
     .interior_txt{
         margin-top: 50px !important; 
     }
@@ -538,6 +538,18 @@
         margin-left: auto;
         margin-right: auto;
     }
+    
+    .interior_txt h2{
+        text-align: center;
+        width: 100%;
+        padding: 0px 20px 0px 20px;        
+    }
+    .interior_txt ul li{
+       text-align: center;
+    }
+    .interior_txt ul li::before{
+        left: 60px;
+    }
     /* here are style start for cart.html */
     #cart_part .cart_heading {
         font-size: 14px;
@@ -581,6 +593,31 @@
     }
     /* here are style end for thankYou.html */
 }
+@media only screen and (max-width: 500px){
+    .interior_txt ul li::before{
+        left: 30px;
+    }
+}
+@media only screen and (max-width: 440px){
+    .interior_txt ul li::before{
+        left: 10px;
+    }
+}
+@media only screen and (max-width: 400px){
+    .interior_txt ul li::before{
+        left: 0px;
+    }
+}
+@media only screen and (max-width: 380px){
+    .interior_txt ul li::before{
+        left: -20px;
+    }
+}
+@media only screen and (max-width: 344px){
+    .interior_txt ul li::before{
+        left: 0px;
+    }
+}
 @media only screen and (max-width: 320px){
    
     .common_heading{
@@ -595,6 +632,7 @@
     }
     .banner_con{
         padding-left: 0 !important;
+        padding-right: 0 !important;
     }
     .product_txt p{
         line-height: 20px;
@@ -642,6 +680,9 @@
     .interior_txt ul{
         width: 70% !important;
         margin: auto;
+    }
+    .interior_txt ul li::before{
+        left: -20px;
     }
     .carousel_info p{
         font-size: 14px !important;
