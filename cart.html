@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="This is a html page.">
+  <meta name="author" content="Shoriful Islam">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="Image/favicon.png">
+  <title>Furniture Project</title>
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <!-- header part start here -->
+  <nav class="navbar navbar-expand-md bg-dark sticky-md-top">
+    <div class="container py-0">
+
+      <a class="navbar-brand" href="#"><h2>Furni <span>.</span></h2></a>
+
+      <button class="navbar-toggler collapsed" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+        
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Furni 
+          <span>.</span></h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+
+        <div class="offcanvas-body">
+
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-0 pe-md-5">
+
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="shop.html">Shop</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About us</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact us</a>
+            </li>
+            
+          </ul>
+
+          <div class="nav_icon">
+            <a href="#" class="me-4">
+              <img class="img-fluid" src="Image/user.svg" alt="User icon">
+            </a>
+            
+            <a href="cart.html" class="active">
+              <img class="img-fluid" src="Image/cart.svg" alt="cart icon">
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </nav>
+  <!-- header part end here -->
+
+  <!-- Main part start here -->
+  <main>
+    <!-- banner part start here -->
+    <section id="banner_part" class="shop_banner_part" >
+      <div class="container">
+        <div class="row ">
+
+          <div class="col-12 shop_con">
+            <h1>Cart</h1>
+          </div> 
+
+        </div>
+        </div>
+    </section>
+    <!-- banner part end here -->
+
+    <!-- cart part start here -->
+    <section id="cart_part">
+      <div class="container">
+
+        <div class="row heading_part pb-4">
+          <div class="col-2 cart_heading">Image</div>
+          <div class="col-2 cart_heading">Product</div>
+          <div class="col-2 cart_heading">Price</div>
+          <div class="col-2 cart_heading">Quantity</div>
+          <div class="col-2 cart_heading">Total</div>
+          <div class="col-2 cart_heading">Remove</div>
+        </div>
+
+        <div class="cart_con row  pt-4">
+
+          <div class="col-3 col-sm-2 cart_img">
+            <img class="w-100" src="Image/product-1.png" alt="Chair Image">
+          </div>
+
+          <div class="col-2 product_num">
+            <p>Product 1</p>
+          </div>
+
+          <div class="col-2 ps-3 price">
+            <p>$49.00</p>
+          </div>
+
+          <div class="col-2 d-flex product_count">
+            <a href="#" class="ms-md-4 me-2 me-md-4"> - </a>
+            <p>1</p>
+            <a href="#" class="ms-2 ms-md-4"> + </a>
+          </div>
+
+          <div class="col-2 ps-4 price">
+            <p>$49.00</p>
+          </div>
+
+          <div class="col-1 col-sm-2 remove">
+            <a href="#" class="ps-sm-5"><i class="fa-solid fa-xmark"></i></a>
+          </div>
+            
+        </div>
+        
+        <div class="cart_con row  pt-4">
+
+          <div class="col-3 col-sm-2">
+            <img class="w-100 ps-1 ps-sm-0" src="Image/product-2.png" alt="Chair Image">
+          </div>
+
+          <div class="col-2 product_num">
+            <p>Product 2</p>
+          </div>
+
+          <div class="col-2 ps-3 price">
+            <p>$49.00</p>
+          </div>
+
+          <div class="col-2 d-flex product_count">
+            <a href="#" class="ms-md-4 me-2 mem-d-4"> - </a> <p>1</p> <a href="#" class="ms-2 ms-md-4"> + </a>
+          </div>
+
+          <div class="col-2 ps-4 price">
+            <p>$49.00</p>
+          </div>
+
+          <div class="col-1 col-sm-2 remove">
+            <a href="#" class="ps-sm-5"><i class="fa-solid fa-xmark"></i></a>
+          </div>
+            
+        </div>
+
+        <div class="row cart_total_part">
+
+          <div class="col-md-8">
+
+            <a href="#" class="text-decoration-none cart_common_button me-sm-5">Update Cart</a>
+
+            <a href="shop.html" class="text-decoration-none cart_common_button
+            continue_shopping_btn ms-5">Continue Shopping</a>
+
+            <h4>Coupon</h4>
+            <p class="common_para">Enter your coupon code if you have one.</p>
+
+            <div class="row">
+              <div class="col-6">
+                <form action="#">
+                  <input type="number" class="w-100 form-control" placeholder="Coupon Code">
+                </form>
+              </div>
+              <div class="col-6 mt-2">
+                <a href="#" class="text-decoration-none cart_common_button">Apply Coupon</a>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-md-4 mt-5 mt-md-0 cart_total">
+
+            <h3>CART TOTALS</h3>
+
+            <div class="row">
+              <div class="col-6">
+                <p>Subtotal</p>
+                <p>Total</p>
+              </div>
+              <div class="col-6">
+                <p>$230.00</p>
+                <p>$230.00</p>
+              </div>
+            </div>
+
+            <a href="checkout.html" class="text-decoration-none cart_common_button">Proceed to Checkout</a>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <!-- cart part end here -->
+
+    <!-- form part start here -->
+    <section id="form_part">
+      <div class="container">
+        <div class="row py-5">
+
+          <div class="col-12 col-lg-8">
+            <h4><span><i class="fa-regular fa-envelope"></i></span>Subscribe to Newsletter</h4>
+            <form action="#">
+              <input class="form-control" type="text" placeholder="Enter your name" required>
+              <input class="form-control" type="email" placeholder="Enter Your Email" required>
+              <button type="submit" class="btn">
+                <span><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+              </button>
+            </form>
+          </div>
+
+          <div class="col-lg-4 d-none d-lg-block">
+            <img class="form_sofa img-fluid" src="Image/sofa.png" alt="sofa image">
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    <!-- form part end here -->
+
+    <!-- pre footer part start here -->
+    <section id="prefooter_part">
+      <div class="container">
+        <div class="prefooter_con">
+
+          <div class="heading text-center text-sm-start">
+            <h2>Furni.</h2>
+          </div>
+          
+          <div class="row">
+
+            <div class="col-12 col-md-4 text-center text-sm-start">
+              <p>Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant</p>
+
+              <div class=" social_link">
+                <div>
+                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+              </div>
+
+            </div>
+            
+            <div class="col-6 col-sm-6 col-md-2">
+              <ul class="first_col">
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact us</a></li>
+              </ul>
+            </div>
+
+            <div class="col-6 col-sm-6 col-md-2">
+              <ul>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Knowledge base</a></li>
+                <li><a href="#">Live Chat</a></li>
+              </ul>
+            </div>
+
+            <div class="col-6 col-sm-6 col-md-2">
+              <ul>
+                <li><a href="#">Jobs</a></li>
+                <li><a href="#">Our team</a></li>
+                <li><a href="#">Leadership</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+              </ul>
+            </div>
+
+            <div class="col-6 col-sm-6 col-md-2">
+              <ul>
+                <li><a href="#">Nordic chair</a></li>
+                <li><a href="#">Kruzo Airo</a></li>
+                <li><a href="#">Argonomic Chair</a></li>
+              </ul>
+            </div>
+
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    <!-- pre footer part end here -->
+
+  </main>
+  <!-- Main part end here -->
+
+  <!-- Footer part start here -->
+  <footer id="footer_part">
+    <div class="container">
+      <div class="row pt-4">
+
+        <div class="col-12 col-sm-7 text-center text-sm-start">
+          <p>Copyright ©2024. All Rights Reserved by Shoriful Islam. Designed with love by Untree.co</p>
+        </div>
+
+        <div class="col-12 col-sm-5 text-center text-sm-start text-lg-end">
+          <a href="#">Terms and Condition</a>
+          <a href="#">Library</a>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+  <!-- Footer part end here -->
+
+  <!-- Bootstrap js file -->
+  <script src="js/bootstrap.bundle.js"></script>
+
+</body>
+</html>

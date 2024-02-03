@@ -1,0 +1,707 @@
+@media only screen and (min-width: 1700px){
+    #banner_part .banner_img_con .dots_image{
+        top: 130px !important;
+    }
+    .interior_design_image_gallery .interior_table_image{
+        width: 410px !important;
+        height: auto;
+    }
+    #footer_part p{
+        font-size: 18px !important;
+    }
+    #footer_part a{
+        font-size: 18px !important;
+    }
+}
+@media only screen and (min-width: 1600px){
+    .container{
+        max-width: 1450px !important;
+    }
+    .common_heading{
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .common_para{
+        font-size: 17px;
+        line-height: 28px;
+    }
+    .common_button{
+        font-size: 18px;
+        padding: 15px 30px;
+    }
+    .navbar-brand h2{
+        font-size: 38px;
+    }
+    .nav-item .active{
+        font-size: 18px;
+    }
+    
+    #banner_part .banner_con h1{
+        width: 100%;
+        font-size: 50px;
+    }
+    #banner_part .banner_con p{
+        font-size: 18px;
+        line-height: 30px;
+        color: var(--color4);
+    }
+    #banner_part .banner_img_con .sofa_image{
+        max-height: 650px !important;
+    }
+    .left_btn, .right_btn{
+        font-size: 20px !important;
+    }
+    #product_part .product_info p{
+        font-size: 18px !important;
+    }
+    #product_part .product_info h6{
+        font-size: 22px !important;
+    }
+    .about_para{
+        font-size: 16px;
+    }
+    .about_info h6{
+        font-size: 20px;
+    }
+    #about_part .about_icon::after{
+        position: absolute;
+        top: 16px;
+        left: 18px !important; 
+    }
+    .about_image .about_sofa_image{
+        width: 600px !important;
+        position: absolute;
+        top: 80px;
+        left: 75px;
+    }
+    .interior_design_image_gallery .interior_table_image{
+        max-height: 450px !important;
+        width: 410px !important;
+        position: absolute;
+        top: 430px !important;
+        right: 0px;
+    }
+    .interior_txt ul li{
+        font-size: 16px;
+    }
+    .bottom_part .product_info .product_info_img{
+        max-width: 150px;
+    }
+    .bottom_part .product_info::after{
+        position: absolute;
+        top: 15px;
+        left: 25px;
+    }
+    .bottom_part .product_info h4{
+        font-size: 18px;
+    }
+    .bottom_part .product_info p{
+        font-size: 15px;
+    }
+    .bottom_part .product_info a{
+        font-size: 16px;
+    }
+
+    .carousel_info span{
+        font-size: 18px;
+    }
+
+    .blog_heading a{
+        font-size: 18px;
+    }
+    .post_con p{
+        font-size: 18px;
+    }
+    .post_con span{
+        font-size: 16px;
+    }
+
+    #form_part h4 span{
+        font-size: 22px;
+    }
+    #form_part h4{
+        font-size: 22px;
+    }
+    form input{
+        font-size: 18px !important;
+    }
+    form button{
+        padding: 12px 30px !important;
+    }
+}
+
+@media only screen and (min-width: 1500px){
+    .nav-item a{
+        font-size: 18px;
+    }
+    .nav-item .active{
+        font-size: 18px;
+    }
+    #banner_part .banner_con{
+        padding-left: 70px !important;
+    }
+    
+    #banner_part .banner_img_con .sofa_image{
+        bottom: -60px !important;
+    }
+    .interior_design_image_gallery .interior_table_image{
+        max-height: 430px !important;
+        width: auto;
+        position: absolute;
+        top: 390px;
+        right: 0px;
+    }
+    #contact_form .address_con p{
+        font-size: 18px;
+    }
+    #contact_form form label{
+        font-size: 18px;
+    }
+    .prefooter_con p{
+        font-size: 16px;
+    }
+    .prefooter_con ul li a{
+        font-size: 17px;
+    }
+    .social_link a{
+        font-size: 22px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+    #footer_part p{
+        font-size: 17px;
+    }
+    #footer_part a{
+        font-size: 17px;
+    }
+
+    /* here are style start for checkout.html */
+    .shop_banner_part .shop_con h1{
+        font-size: 50px;
+    }
+    #checkout_part .login_txt{
+        font-size: 20px;
+    }
+    #checkout_part .billing_part form label{
+        font-size: 18px;
+    }
+    #checkout_part .billing_part form .modal_part button{
+        font-size: 22px;
+    }
+    #checkout_part .coupon_part form label{
+        font-size: 20px;  
+    }
+    #checkout_part .coupon_part button{
+        font-size: 20px;
+    }
+    .order_details_part .heading h6{
+        font-size: 22px;
+    }
+    .order_details_part .product p{
+        font-size: 20px;
+    }
+    .order_details_part .product p span{
+        font-size: 20px;
+    }
+    .order_details_part .subtotal p{
+        font-size: 20px;
+    }
+    .order_details_part .subtotal span{
+        font-size: 20px;
+    }
+    .order_details_part .total p{
+        font-size: 20px;
+    }
+    .order_details_part .pay_option a{
+        font-size: 20px;
+    }
+    .order_details_part .place_order_btn{
+        font-size: 24px;
+    }
+    /* here are style end for checkout.html */
+
+
+}
+@media only screen and (min-width: 1400px){
+    .container{
+        max-width: 1250px;
+    }
+    #banner_part .banner_con{
+        padding-left: 50px;
+    }
+    #banner_part .banner_img_con .dots_image{
+        max-height: 300px;
+        position: relative;
+        top: 60px;
+        right: 0px;
+    }
+    #banner_part .banner_img_con .sofa_image{
+        position: absolute;
+        right: 10px;
+        bottom: -70px;
+        max-height: 530px;
+    }
+    .about_image .about_sofa_image{
+        width: 520px;
+        position: absolute;
+        top: 80px;
+        left: 75px;
+    }
+    .interior_design_image_gallery .interior_table_image{
+        max-height: 400px;
+        width: auto;
+        position: absolute;
+        top: 400px;
+        right: 0px;
+    }
+}
+@media only screen and (max-width: 1399.98px){
+    #banner_part .banner_con{
+        padding-left: 100px;
+    }
+    #banner_part .banner_img_con .dots_image{
+        max-height: 200px;
+        top: 110px;
+        right: 0px;
+    }
+}
+@media only screen and (max-width: 1299.98px){
+    .banner_con{
+        padding-left: 25px !important;
+    }
+    #banner_part .banner_img_con .sofa_image{
+        max-height: 420px;
+        right: 0px;
+        bottom: -50;
+        z-index: 22 !important;
+    }
+    .interior_design_image_gallery .dot_image{
+        max-width: 200px; 
+    }
+}
+
+@media only screen and (max-width: 1199.98px){
+    #banner_part{
+        height: 88vh;
+    }
+    #banner_part .banner_con{
+        height: 88vh;
+    }
+    #banner_part .banner_con h1{
+        width: 100%;
+    }
+    #banner_part .banner_img_con .sofa_image{
+        max-height: 400px;
+        right: 0px;
+        bottom: -50;
+        z-index: 22 !important;
+    }
+    
+    #banner_part .banner_img_con .dots_image{
+        max-height: 200px;
+        top: 110px;
+        right: 0px;
+    }
+  
+    .product_txt p{
+        width: 70%;
+        padding-bottom: 20px;
+    }
+    /* about part */
+    .about_image .about_sofa_image{
+        max-height: 450px;
+        max-width: 370px;
+        top: 110px;
+        left: 75px;
+    }
+    .interior_design_image_gallery .dot_image{
+        max-width: 250px; 
+    }
+    .interior_design_image_gallery .interior_table_image{
+        top: 320px;
+    }
+
+    #form_part img{
+        max-width: 320px;
+        top: -100px;
+        right: 50px;
+    }
+
+    /* here are style start for checkout.html */
+    #checkout_part{
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+    /* here are style end for checkout.html */
+}
+
+
+@media only screen and (max-width: 991.98px){
+    .nav-item{
+        margin-right: 15px;
+        transition: all .6s;
+    }
+    /* banner part */
+    #banner_part{
+        height: 90vh;
+    }
+    #banner_part .banner_con h1{
+        width: 100% !important;
+        font-size: 32px;
+    }
+    #banner_part .banner_img_con .dots_image{
+        max-height: 200px;
+        top: 110px !important;
+        right: 0px;
+    }
+    #banner_part .banner_img_con .sofa_image{
+        max-height: 330px !important;
+        right: 0px !important;
+        bottom: 0 !important;
+        z-index: 22 !important;
+    }
+    .product_txt h2{
+        font-size: 28px;
+    }
+    .product_txt p{
+        width: 100%;
+    }
+    /* interior part */
+    .interior_design_image_gallery .interior_table_image{
+        top: 380px !important;
+    }
+    .interior_txt{
+        padding-top: 80px;
+        padding-left: 0px;
+    }
+    .interior_txt h2{
+        width: 70%;
+    }
+    #prefooter_part ul{
+        padding-left: 15px;
+    }
+    #prefooter_part ul li a{
+        font-size: 14px;
+    }
+
+    /* Here are start style for shop.html part */
+    .shop_banner_part{
+        height: 30vh !important;
+    }
+    .shop_banner_part .shop_con h1{
+        color: var(--color1);
+        margin-top: 6% !important;
+    }
+    /* Here are end style for shop.html part */
+
+    /* Here are start style for contact.html part */
+    form .button_part button{
+        font-size: 16px;
+        font-weight: 600;
+        margin-top: 50px;
+        padding: 10px 15px !important;
+        border-radius: 50px;
+        background-color: var(--color_btn) !important;
+        color: var(--color1);
+    }
+    /* Here are end style for contact.html part */
+
+    /* Here are start style for cart.html part */
+    #cart_part{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background-color: var(--color_bg);
+    }
+    #cart_part .cart_heading{
+        font-size: 18px;
+    }
+    #cart_part .cart_con .product_num{
+        font-size: 20px;
+    }
+    .cart_total_part .cart_total a{
+        display: inline-block;
+        margin-top: 40px;
+        font-size: 16px;
+    }
+    /* Here are end style for cart.html part */
+
+    /* Here are start style for checkout.html part */
+    #checkout_part .coupon_part form label{
+        font-size: 12px;
+    }
+    #checkout_part .coupon_part button{
+        margin-top: 10px;
+    }
+
+    /* Here are end style for checkout.html part */
+
+    /* Here are start style for thankYou.html part */
+    #thank_part{
+        padding-top: 50px;
+        padding-bottom: 80px;
+    }
+    /* Here are end style for thankYou.html part */
+}
+
+@media only screen and (max-width: 767.98px){
+
+    .nav-link{
+        margin-bottom: 20px !important;
+        font-size: 18px !important;
+    }
+    .nav-item{
+        display: flex !important;
+        justify-content: center !important;
+    }
+    .nav_icon{
+        display: flex;
+        justify-content: center;
+    }
+    #banner_part .banner_con{
+        height: 80vh;
+    }
+    #banner_part .banner_img_con{
+        opacity: 0;
+        visibility: hidden;
+    }
+    
+    .interior_txt{
+        margin-top: 50px !important; 
+    }
+
+    .carousel_info p{
+        font-size: 16px !important;
+    }
+    .interior_design_image_gallery .interior_table_image{
+        top: 320px !important;
+    }
+    #prefooter_part .row .col-3 ul{
+        padding-left: 0 !important;
+    }
+    #blog_part{
+        background-color: var(--color_bg);
+        padding-bottom: 30px;
+    }
+
+    /* Here are start style for contact.html part */
+    .contact_banner_con h1{
+        font-size: 42px;
+        word-spacing: 10px;
+    }
+    #contact_form .address_con span i{
+        padding: 15px;
+    }
+    /* Here are end style for contact.html part */
+
+    /* Here are start style for about.html part */
+    .card-body p{
+        font-size: 14px;
+        line-height: 22px;
+        color: var(--color_p);
+    }
+    /* Here are end style for about.html part */
+
+    /* Here are start style for cart.html part */
+    #cart_part .cart_heading{
+        font-size: 16px;
+    }
+    #cart_part .cart_con .product_num{
+        font-size: 14px;
+    }
+    #cart_part .cart_con .product_count a{
+        text-decoration: none;
+        color: var(--color5);
+        font-size: 18px;
+        font-weight: 600;
+        padding: 10px 0px;
+    }
+    #cart_part .cart_con .product_count p{
+        background-color: var(--color1);
+        padding: 5px 10px;
+        color: var(--color5);
+        font-size: 20px;
+        font-weight: 600;
+    }
+    /* Here are end style for cart.html part */
+
+    /* Here are start style for cart.html part */
+    /* Here are end style for cart.html part */
+
+}
+@media only screen and (max-width: 575px){
+    #about_part .about_icon::after{
+        left: 49%; 
+    }
+    #about_part .about_info p{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /* here are style start for cart.html */
+    #cart_part .cart_heading {
+        font-size: 14px;
+    }
+    #cart_part .cart_con .product_num {
+        padding: 0;
+        font-size: 14px;
+    }
+    #cart_part .cart_con .remove a i{
+        font-size: 18px !important;
+        margin-bottom: 25px;
+    }
+    #cart_part .cart_con .product_count a{
+        margin-bottom: 10px;
+    }
+    #cart_part .cart_con .product_count p{
+        font-size: 16px;
+        margin-top: 5px;
+    }
+    .cart_common_button{
+        background-color: var(--color5);
+        color: var(--color1);
+        border-radius: 30px;
+        font-size: 13px;
+        padding: 10px 15px;
+        transition: .4s;
+    }
+    #form_part form input{
+        width: 100% !important;
+        margin-bottom: 20px;
+        margin-right: 0px !important;
+    }
+    /* here are style end for cart.html */
+    
+    /* here are style start for thankYou.html */
+    #thank_part h1{
+        font-size: 54px;
+        font-weight: 400;
+        color: #000000; 
+        text-align: center; 
+    }
+    /* here are style end for thankYou.html */
+}
+@media only screen and (max-width: 320px){
+   
+    .common_heading{
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .common_para{
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 400;
+        color: var(--color_p);
+    }
+    .banner_con{
+        padding-left: 0 !important;
+    }
+    .product_txt p{
+        line-height: 20px;
+        width: 100% !important;
+        padding-bottom: 0;
+    }
+    .about_para{
+        width: 80%;
+        margin: auto;
+    }
+    #about_part .about_icon::after{
+        left: 145px; 
+    }
+    .interior_design_image_gallery .dot_image{
+        left: 0px;
+    }
+
+    .interior_design_image_gallery .interior_sofa_image{
+        max-width: 180px;
+        left: 20px;
+    }
+
+    .interior_design_image_gallery .interior_table_image{
+        max-width: 150px;
+        top: 180px !important;
+    }
+    .interior_design_image_gallery .living_image{
+        top: 83px;
+    }
+    .interior_txt{
+        padding-top: 0px;
+    }
+    .interior_txt h2{
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 24px;
+        width: 90%;
+    }
+    .interior_txt p{
+        width: 90%;
+        margin: auto;
+        line-height: 22px;
+        padding-bottom: 30px;
+    }
+    .interior_txt ul{
+        width: 70% !important;
+        margin: auto;
+    }
+    .carousel_info p{
+        font-size: 14px !important;
+    }
+    form input{
+        width: 100% !important;
+        margin-bottom: 20px;
+        margin-right: 0 !important;
+    }
+    #footer_part p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    #footer_part a{
+        text-decoration: underline;
+    }
+
+    /* Here are start style for shop.html part */
+    .shop_banner_part{
+        height: 20vh !important;
+    }
+    .shop_banner_part .shop_con h1{
+        color: var(--color1);
+        margin-top: 5% !important;
+        font-size: 35px;
+    }
+    /* Here are end style for shop.html part */
+
+    /* Here are start style for contact.html part */
+    #contact_form{
+        padding-bottom: 100px;
+    }
+    #contact_form .address_con .address{
+        font-size: 12px;
+    }
+    .contact_banner_con h1{
+        font-size: 30px;
+        word-spacing: 5px;
+    }
+
+    .address_con p{
+        font-size: 14px;
+    }
+    form .button_part button{
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    /* Here are end style for contact.html part */
+
+
+    /* Here are start style for cart.html part */
+    .cart_total_part .continue_shopping_btn{
+        margin-left: 20px !important;
+    }
+    #cart_part .cart_heading {
+        font-size: 12px;
+        padding: 0px !important;
+    }
+    #cart_part .cart_con .col-3{
+        padding: 0px !important;
+    }
+    /* Here are end style for cart.html part */
+}

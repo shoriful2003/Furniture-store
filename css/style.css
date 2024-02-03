@@ -1,0 +1,1097 @@
+body{
+    font-family: "Inter", sans-serif;
+    scroll-behavior: smooth !important;
+}
+.common_heading{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38px;
+}
+.common_para{
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 400;
+    color: var(--color_p);
+}
+.common_button{
+    background-color: var(--color5);
+    color: var(--color1);
+    border-radius: 30px;
+    font-size: 16px;
+    padding: 12px 28px;
+    transition: .4s;
+}
+.common_button:hover{
+    background-color: var(--color_btn_hover);
+    color: var(--color1);
+}
+:root{
+    --color1: #ffffff;
+    --color2: #3B5D50;
+    --color3: #F8B810;
+    --color4: #ffffff80;
+    --color5: #2f2f2f;
+    --color6: #DCE5E4;
+    --color7: #CBD5D1;
+    --color8: #DDE2E0;
+    --color_bg: #EFF2F1;
+    --color_p: #6a6a6a;
+    --color_btn: #2f2f2f;
+    --color_btn_hover: #222222;
+}
+
+/* ===== navbar style start here */
+.navbar{
+    background-color: var(--color2) !important;
+}
+.navbar{
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.navbar-brand h2{
+    color: var(--color1);
+    font-weight: 700;
+}
+.navbar-brand h2 span{
+    color: var(--color4);
+    font-size: 40px;
+    font-weight: 700;
+    position: relative;
+    left: -5px;
+}
+.nav-item{
+    margin-right: 40px;
+    transition: all .6s;
+}
+.nav-item .active{
+    display: inline-block;
+    color: var(--color1) !important;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all .4s;
+}
+.nav-item .active::after{
+    content: "";
+    height: 5px;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: var(--color3);
+    opacity: 1;
+    visibility: visible;
+}
+.nav-item a{
+    display: inline-block;
+    color: var(--color4);
+    font-size: 15px;
+    font-weight: 600;
+    transition: all .4s;
+    position: relative;
+    padding: 0 !important;
+    padding-bottom: 5px !important;
+}
+.nav-item a:hover{
+    color: var(--color1);
+}
+.nav-item a::after{
+    content: "";
+    height: 5px;
+    width: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: var(--color3);
+    opacity: 0;
+    visibility: hidden;
+    transition: all .4s;
+}
+.nav-item a:hover::after{
+    opacity: 1;
+    visibility: visible;
+    width: 100%;
+    
+}
+.nav_icon a img{
+    position: relative;
+    top: 5px;
+    transition: .4s;
+}
+.nav_icon a{
+    transition: all .4s;
+    position: relative;
+}
+.nav_icon a::after{
+    content: "";
+    height: 5px;
+    width: 0;
+    position: absolute;
+    top: 160%;
+    left: 0;
+    background-color: var(--color3);
+    opacity: 0;
+    visibility: hidden;
+    transition: all .4s;
+}
+.nav_icon a:hover::after{
+    opacity: 1;
+    visibility: visible;
+    width: 100%;
+}
+.nav_icon a img:hover{
+    transform: scale(1.1);
+}
+/* ===== navbar style end here */
+
+/* ===== banner style end here */
+#banner_part{
+    background-color: var(--color2);
+    height: 88vh;
+}
+.banner_con{
+    height: 88vh;
+    padding-left: 100px;
+}
+
+#banner_part .banner_con h1{
+    width: 75%;
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--color1);
+}
+#banner_part .banner_con p{
+    font-size: 14px;
+    line-height: 28px;
+    color: var(--color4);
+}
+.banner_con .banner_button .left_btn{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 25px;
+    position: relative;
+}
+
+.banner_con .banner_button .right_btn{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 8px 25px;
+    color: var(--color1);
+    text-decoration: none;
+    border: 2px solid var(--color4);
+    background-color: var(--color2);
+    transition: all .4s;
+    position: relative;
+    z-index: 99 !important;
+}
+.banner_con .banner_button .right_btn:hover{
+    color: var(--color_btn_hover);
+    border: 2px solid var(--color1);
+}
+.banner_con .banner_button .right_btn:hover::after{
+    width: 100%;
+    opacity: 1;
+    visibility: visible;
+
+}
+.banner_con .banner_button .right_btn::after{
+    content: "";
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: var(--color1);
+    border-radius: 25px;
+    visibility: hidden;
+    opacity: 0;
+    transition: .6s;
+    z-index: -1;
+}
+#banner_part .banner_img_con{
+    height: 88vh;
+    background-color: var(--color2);
+}
+#banner_part .banner_img_con .dots_image{
+    max-height: 300px;
+    position: relative;
+    top: 110px;
+    right: 0px;
+    z-index: 1;
+}
+#banner_part .banner_img_con .sofa_image{
+    position: absolute;
+    right: 10px;
+    bottom: -50px;
+    z-index: 22 !important;
+    max-height: 500px;
+}
+
+/* ===== banner style end here */
+
+/* ===== product style end here */
+#product_part{
+    background-color: var(--color_bg);
+}
+
+#product_part .product_link{
+    text-decoration: none;
+    color: var(--color_btn_hover);
+}
+#product_part .product{
+    position: relative;
+    transition: .5s;
+    border-radius: 15px;
+}
+#product_part .product .product_image{
+    transition: .4s;
+}
+#product_part .product:hover .product_image{
+    transform: translateY(-20px);
+}
+#product_part .product:hover.product::after{
+    opacity: 1;
+    visibility: visible;
+    height: 68%;
+}
+#product_part .product::after{
+    content: "";
+    width: 100%;
+    height: 0;
+    background-color: var(--color8);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 15px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+#product_part .product .product_info p{
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    position: relative;
+    z-index: 2;
+}
+#product_part .product .product_info h6{
+    font-size: 18px;
+    font-weight: 800;
+    margin-top: 5px;
+    padding-bottom: 70px;
+    position: relative;
+    z-index: 2;
+}
+#product_part .product .product_info img{
+    padding: 12px;
+    border-radius: 50%;
+    background-color: var(--color5);
+    position: absolute;
+    bottom: -25px;
+    left: 43%;
+    z-index: 2;
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+}
+#product_part .product:hover .product_info img{
+    opacity: 1;
+    visibility: visible;
+}
+/* ===== product style end here */
+
+/* ===== about style end here */
+#about_part{
+    background-color: var(--color_bg)
+}
+.about_para{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--color_p);
+}
+#about_part .about_icon{
+    position: relative;
+}
+#about_part .about_icon img{
+    position: relative;
+    z-index: 2;
+}
+#about_part .about_icon::after{
+    content: "";
+    height: 30px;
+    width: 30px;
+    background-color: var(--color7);
+    border-radius: 50%;
+    position: absolute;
+    top: 16px;
+    left: 22px; 
+}
+
+.about_image{
+    position: relative;
+}
+.about_image .about_sofa_image{
+    max-height: 550px;
+    position: absolute;
+    top: 80px;
+    left: 75px;
+}
+/* ===== about part style end here */
+
+/* ===== interior design part style end here */
+#interior_design_part{
+    background-color: var(--color_bg);
+}
+.interior_design_image_gallery{
+    position: relative;
+}
+.interior_design_image_gallery .dot_image{
+    position: relative;
+    left: -110px;
+    top: 50px;
+}
+.interior_design_image_gallery .interior_sofa_image{
+    position: relative;
+    top: -80px;
+    left: 0px;
+}
+.interior_design_image_gallery .interior_table_image{
+    max-height: 380px;
+    width: auto;
+    position: absolute;
+    top: 360px;
+    right: 0px;
+}
+.interior_design_image_gallery .living_image{
+    position: relative;
+    top: 140px;
+}
+.interior_txt{
+    padding-top: 140px;
+    padding-left: 50px;
+}
+.interior_txt ul li{
+    list-style: none;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    color: var(--color_p);
+    margin-bottom: 20px;
+    position: relative;
+}
+.interior_txt ul li::before{
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: 2px solid #3b5d50;
+    position: absolute;
+    left: -20px;
+    top: 8px;
+}
+.bottom_part .product_info .product_info_img{
+    max-width: 130px;
+}
+.bottom_part .product_info{
+    position: relative;
+}
+.bottom_part .product_info img{
+    position: relative;
+    z-index: 2;
+}
+.bottom_part .product_info::after{
+    content: "";
+    width: 100px;
+    height: 100px;
+    background-color: var(--color7);
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    border-radius: 20px;
+}
+.bottom_part .product_info h4{
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--color_btn);
+}
+.bottom_part .product_info p{
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    color: var(--color_p);
+}
+.product_info a{
+    text-decoration: none;
+    color: #000000;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    transition: .2s;
+}
+.product_info a:hover{
+    color: var(--color_p);
+}
+/* ===== interior design part style end here */
+
+/* ===== carousel design part style end here */
+#carousel_part{
+    background-color: var(--color_bg);
+}
+.carousel-indicators button{
+    background-color: var(--color2) !important;
+    height: 10px !important;
+    width: 10px !important;
+    border-radius: 50% !important;
+}
+.carousel_info img{
+    max-width: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.carousel_info span{
+    font-size: 14px;
+    font-weight: 700;
+}
+.carousel_control_left{
+    position: absolute !important;
+    top: 300px;
+    left: 0px;
+    height: 50px !important;
+    width: 50px !important;
+    background-color: var(--color2) !important;
+    border-radius: 0% 50% 0% 50%;
+}
+.carousel_control_right{
+    position: absolute !important;
+    top: 300px;
+    right: 0px;
+    height: 50px !important;
+    width: 50px !important;
+    background-color: var(--color2) !important;
+    border-radius: 50% 0% 50% 0%;
+}
+/* ===== carousel  part style end here */
+
+/* ===== blog part style end here */
+#blog_part{
+    background-color: var(--color_bg);
+    padding-bottom: 100px;
+}
+.blog_heading a{
+    display: inline-block;
+    color: var(--color5);
+    font-size: 16px;
+    font-weight: 600;
+    transition: all .4s;
+}
+.blog_heading a:hover{
+    color: var(--color_p);
+}
+.post_con p{
+    font-size: 16px;
+    color: var(--color_btn);
+    font-weight: 600;
+    line-height: 30px;
+}
+.post_con span{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    color: var(--color_p);
+}
+.post_con{
+    position: relative;
+    transition: .4s;
+}
+.post_con::after{
+    content: "";
+    height: 75%;
+    width: 100%;
+    background-color: rgba(275, 275, 275, .4);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 35px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+}
+.post_con:hover.post_con::after{
+    opacity: 1;
+    visibility: visible;
+}
+
+/* ===== blog part style end here */
+
+/* ===== form part style end here */
+#form_part h4 span{
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 5px;
+    color: var(--color_p);
+}
+#form_part h4{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--color2);
+}
+form input{
+    display: inline-block !important;
+    width: 35% !important;
+    padding: 10px 15px !important;
+    margin-right: 20px !important;
+}
+form input:focus{
+    border: 1px solid var(--color2) !important;
+
+}
+form button{
+    padding: 10px 25px !important;
+    background-color: var(--color2) !important;
+    transition: .4s;
+}
+form button:hover{
+    background-color: #314D43 !important;
+}
+form button span{
+    color: var(--color1) !important;
+}
+#form_part{
+    position: relative;
+}
+#form_part img{
+    max-width: 400px;
+    position: absolute;
+    top: -150px;
+    right: 100px;
+}
+/* ===== form part style end here */
+
+/* ===== pre footer part style start here */
+#prefooter_part .heading h2{
+    font-size: 32px;
+    font-weight: 500;
+    color: var(--color2);
+    padding-bottom: 20px;
+}
+.prefooter_con p{
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 400;
+    color: var(--color_p);
+}
+.prefooter_con ul li{
+    list-style: none;
+}
+.prefooter_con ul li a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    color: var(--color5);
+    transition: all .4s;
+    border-bottom: 2px solid transparent;
+}
+.prefooter_con ul li a:hover{
+    color: rgba(47, 47, 47, 0.5); 
+    border-bottom: 2px solid var(--color3) !important;
+}
+.social_link{
+    padding-bottom: 50px;
+}
+.social_link a{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    display: inline-block;
+    background: #dce5e4;
+    border-radius: 50%;
+    text-decoration: none;
+    color: var(--color2);
+    transition: all .6s;
+}
+.social_link a:hover{
+    background-color: var(--color2);
+    color: var(--color1);
+}
+/* ===== pre footer part style end here */
+
+/* ===== footer part style end here */
+#footer_part{
+    border-top: 1px solid #ddd;
+
+}
+#footer_part p{
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 400;
+    color: var(--color_p);
+}
+#footer_part a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    color: var(--color5);
+    transition: all .4s;
+    padding-left: 15px;
+}
+#footer_part a:hover{
+    color: rgba(47, 47, 47, 0.5); 
+}
+
+/* ===== footer part style end here */
+
+
+/* Here are start style for shop.html */
+.shop_product_part{
+    padding-bottom: 120px !important;
+}
+
+.shop_banner_part{
+    height: 50vh !important;
+}
+.shop_banner_part .shop_con h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--color1);
+    margin-top: 8% !important;
+}
+/* Here are end style for shop.html */
+
+/* Here are start style for services.html  part */
+.service_carousel_part{
+    padding-bottom: 70px;
+}
+/* Here are start style for services.html  part */
+
+/* Here are start style for blog.html  part */
+.blog_part{
+    padding-bottom: 0 !important;
+}
+.blog_heading{
+    font-size: 60px !important;
+    font-weight: 800 !important;
+}
+.carousel_part{
+    padding-bottom: 150px !important;
+}
+/* Here are end style for blog.html  part */
+
+/* Here are start style for contact.html  part */
+
+#contact_form{
+    padding-bottom: 150px;
+    background-color: var(--color_bg);
+}
+.contact_banner_part{
+    height: 40vh !important;
+}
+.contact_banner_con{
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact_banner_con h1{
+    font-size: 50px;
+    color: var(--color1);
+    font-weight: 800px;
+    word-spacing: 10px;
+}
+#contact_form .address_con span i{
+    display: inline-block;
+    padding: 20px;
+    background-color: var(--color2);
+    border-radius: 15px;
+    color: var(--color1);
+}
+#contact_form .address_con p{
+    font-size: 14px;
+    line-height: 21px;
+    color: var(--color_p);
+    display: flex;
+    align-items: center;
+}
+
+form .message_part textarea{
+    resize: none !important;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd !important;
+}
+
+form .button_part button{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 50px;
+    padding: 10px 20px ;
+    border-radius: 50px;
+    background-color: var(--color_btn) !important;
+    color: var(--color1);
+}
+form .button_part button:hover{
+    background-color: var(--color_btn_hover) !important;
+}
+
+/* Here are end  style for contact.html  part */
+
+/* Here are start  style for about_us.html  part */
+#team_part{
+    background-color: var(--color_bg);
+    padding-top: 100px;
+}
+#team_part h2{
+    font-size: 35px;
+    font-weight: 600;
+    padding-bottom: 80px;
+    color: var(--color5);
+}
+#team_part .card_link{
+    text-decoration: none;
+}
+#team_part .card{
+    background-color: var(--color_bg) !important;
+    box-shadow: 0px 0px 5px 0 rgba(0, 0, 0, .2);
+    border: none !important;
+    transition: all .4s;
+}
+#team_part .card:hover{
+    box-shadow: 10px 10px 15px  rgba(0, 0, 0, .3);
+}
+.card-body h4{
+    color: var(--color5);
+    font-size: 25px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+.card-body h6{
+    font-size: 14px;
+    color: var(--color_p);
+}
+.card-body p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    color: var(--color_p);
+    margin-bottom: 30px !important;
+}
+.card-body a{
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-block;
+    text-decoration: underline;
+    color: var(--color_btn_hover) !important;
+    transition: all .2s;
+}
+.card-body a:hover{
+    color: var(--color_p) !important;
+}
+.about_carousel_part{
+    padding-bottom: 100px;
+}
+/* Here are end  style for about_us.html  part */
+
+/* Here are start  style for cart.html  part */
+#cart_part{
+    padding-top: 150px;
+    padding-bottom: 250px;
+    background-color: var(--color_bg);
+}
+#cart_part .heading_part{
+    border-bottom: 2px solid rgba(0, 0, 0, .8);
+}
+#cart_part .cart_heading{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 700;
+    text-align: center;
+    color: rgba(0, 0, 0, .8);
+}
+#cart_part .cart_con{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #ddd;
+}
+#cart_part .cart_con .product_num{
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, .8);
+}
+#cart_part .cart_con .product_count a{
+    text-decoration: none;
+    color: var(--color5);
+    font-size: 22px;
+    font-weight: 600;
+    padding: 10px 0px;
+}
+#cart_part .cart_con .product_count p{
+    background-color: var(--color1);
+    padding: 10px 20px;
+    color: var(--color5);
+    font-size: 20px;
+    font-weight: 600;
+}
+#cart_part .cart_con .remove a{
+    text-decoration: none;
+    color: var(--color5);
+    font-size: 22px;
+    font-weight: 600;
+}
+.cart_common_button{
+    background-color: var(--color5);
+    color: var(--color1);
+    border-radius: 30px;
+    font-size: 15px;
+    padding: 16px 28px;
+    transition: .4s;
+}
+.cart_common_button:hover{
+    background-color: var(--color_btn_hover);
+    color: var(--color1);
+}
+.cart_total_part{
+    padding-top: 100px;
+}
+.cart_total_part h4{
+    font-size: 30px;
+    margin-top: 80px;
+}
+.cart_total_part h3{
+    font-size: 25px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #ddd;
+}
+.cart_total_part .cart_total p{
+    font-size: 14px;
+    color: var(--color_p);
+}
+.cart_total_part .cart_total a{
+    display: inline-block;
+    margin-top: 40px;
+    font-size: 20px;
+}
+/* Here are end  style for cart.html  part */
+
+/* Here are start  style for checkout.html  part */
+#checkout_part{
+    background-color: var(--color_bg);
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+#checkout_part .login_txt{
+    display: block;
+    font-size: 14px;
+    color: var(--color_p);
+    padding: 25px 20px;
+    border: 1px solid #ddd;
+}
+#checkout_part .login_txt a{
+    color: var(--color5);
+}
+#checkout_part .checkout_heading{
+    font-size: 28px;
+    font-weight: 500;
+    color: #000000;
+}
+#checkout_part .billing_part{
+    background-color: var(--color1);
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+#checkout_part .billing_part form label{
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+}
+#checkout_part .billing_part form label span{
+    color: red;
+    font-size: 16px;
+}
+#checkout_part .billing_part form textarea{
+    resize: none;
+    border: 2px solid #ddd !important;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* checkout modal part start here */
+
+#checkout_part .billing_part form .modal_part button{
+    background-color: var(--color_bg) !important;
+    padding: 5px 5px !important; 
+    margin-top: 10px;
+}
+#checkout_part .billing_part form .modal_part .modal-header button{
+    background-color: var(--color2) !important;
+}
+#checkout_part .billing_part form .modal_part .modal-body{
+    font-size: 14px;
+    color: var(--color_p);
+}
+#checkout_part .billing_part form .modal_part .modal-body form label{
+    font-size: 16px !important;
+}
+#checkout_part .billing_part form .modal_part .modal-footer button{
+    background-color: var(--color2) !important;
+    border-color: #ddd !important;
+    font-size: 15px !important;
+}
+/* checkout modal part end here */
+
+#checkout_part .coupon_part{
+    background-color: var(--color1);
+    border: 1px solid #ddd;
+}
+#checkout_part .coupon_part form label{
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+    margin-bottom: 15px;   
+}
+#checkout_part .coupon_part form input{
+    border: 1px solid #ddd !important;
+    border-radius: 5px;
+}
+#checkout_part .coupon_part button{
+    background-color: var(--color_btn) !important;
+    padding: 10px 30px;
+    color: var(--color1);
+    font-size: 16px;
+    border-radius: 50px;
+    border: 1px solid transparent;
+    transition: .4s;
+    margin-top: 40px;
+}
+#checkout_part .coupon_part button:hover{
+    background-color: var(--color_btn_hover) !important;
+}
+#checkout_part .order_details_part{
+    background-color: var(--color1);
+    border: 1px solid #ddd;
+}
+.order_details_part .heading{
+    border-bottom: 2px solid #000000;
+}
+.order_details_part .heading h6{
+    font-size: 15px;
+    font-weight: 700;
+    color: #000000;
+}
+.order_details_part .product{
+    border-bottom: 1px solid #ddd;
+}
+.order_details_part .product p{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 0 !important;
+}
+.order_details_part .product p span{
+    font-size: 15px;
+    font-weight: 700;
+    color: #000000;
+}
+.order_details_part .subtotal{
+    border-bottom: 1px solid #ddd;
+}
+.order_details_part .subtotal p{
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 0 !important;
+}
+.order_details_part .subtotal span{
+    font-size: 14px;
+}
+.order_details_part .total{
+    border-bottom: 1px solid #ddd;
+}
+.order_details_part .total p{
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 0 !important;
+}
+.order_details_part .pay_option{
+    border: 1px solid #ddd;
+}
+.order_details_part .pay_option a{
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--color_btn);
+    transition: .4s;
+}
+.order_details_part .pay_option a:hover{
+    color: var(--color_p);
+}
+.order_details_part .place_order_btn{
+    display: inline-block;
+    font-size: 18px;
+    padding: 12px 30px;
+    background-color: var(--color_btn);
+    color: var(--color1);
+    border-radius: 50px;
+    transition: .4s;
+}
+.order_details_part .place_order_btn:hover{
+    background-color: var(--color_btn_hover);
+}
+/* Here are end  style for checkout.html  part */
+
+
+/* Here are start  style for thankYou.html  part */
+    .thank_banner_part{
+        height: 25vh !important;
+        display: flex;
+        align-items: center !important;
+    }
+    .thank_banner_part h1{
+        color: var(--color1);
+        font-size: 45px;
+        font-weight: 600;
+    }
+    #thank_part{
+        padding-top: 80px;
+        padding-bottom: 150px;
+        background-color: var(--color_bg);
+    }
+    
+    #thank_part h1{
+        font-size: 64px;
+        font-weight: 400;
+        color: #000000; 
+        text-align: center; 
+    }
+    #thank_part p{
+        font-size: 20px;
+        color: var(--color_p);
+        font-weight: 300;
+        text-align: center;
+    }
+    #thank_part a{
+        display: inline-block;
+        text-align: center;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 500;
+        padding: 15px 30px;
+        background-color: var(--color_btn);
+        color: var(--color1);
+        border-radius: 50px;
+        margin-top: 40px;
+        transition: .4s;
+    }
+    #thank_part a:hover{
+        background-color: var(--color_btn_hover);
+    }
+/* Here are end  style for thankYou.html  part */
+
+
