@@ -592,11 +592,55 @@
         text-align: center; 
     }
     /* here are style end for thankYou.html */
+
+    /* here are style end for contact.html */
+    #contact_form form input{
+        margin-right: 0 !important;
+    }
+    /* here are style end for contact.html */
 }
 @media only screen and (max-width: 500px){
     .interior_txt ul li::before{
         left: 30px;
     }
+    .interior_design_image_gallery .dot_image{
+        max-width: 185px;
+        left: 0px;
+        top: 100px;
+    }
+    .interior_design_image_gallery .interior_sofa_image{
+        max-width: 260px;
+        left: 40px;
+        top: -15px;
+    }
+    .interior_design_image_gallery .interior_table_image{
+        max-width: 250px;
+        left: 200px;
+        top: 300px !important;
+    }
+    .interior_txt{
+        margin-top: 150px !important;
+    }
+}
+@media only screen and (max-width: 460px){
+    .interior_design_image_gallery .dot_image{
+        max-width: 120px;
+        top: 60px;
+    }
+    .interior_design_image_gallery .interior_sofa_image{
+        max-width: 210px;
+        left: 40px;
+        top: -15px;
+    }
+    .interior_design_image_gallery .interior_table_image{
+        max-width: 200px;
+        left: 180px;
+        top: 230px !important;
+    }
+    .interior_design_image_gallery .living_image{
+        top: 85px;
+    }
+
 }
 @media only screen and (max-width: 440px){
     .interior_txt ul li::before{
@@ -607,15 +651,48 @@
     .interior_txt ul li::before{
         left: 0px;
     }
+    
+    .interior_design_image_gallery .dot_image{
+        max-width: 100px;
+        top: 40px;
+    }
+    .interior_design_image_gallery .interior_sofa_image{
+        max-width: 185px;
+        left: 40px;
+        top: -15px;
+    }
+    .interior_design_image_gallery .interior_table_image{
+        max-width: 175px;
+        left: 160px;
+        top: 200px !important;
+    }
+    .interior_design_image_gallery .living_image{
+        top: 75px;
+    }
 }
 @media only screen and (max-width: 380px){
     .interior_txt ul li::before{
         left: -20px;
     }
 }
+@media only screen and (max-width: 350px){
+    .interior_design_image_gallery .interior_sofa_image{
+        max-width: 175px;
+        left: 20px;
+    }
+    .interior_design_image_gallery .interior_table_image{
+        max-width: 165px;
+        left: 130px;
+        top: 180px !important;
+    }
+}
 @media only screen and (max-width: 344px){
     .interior_txt ul li::before{
         left: 0px;
+    }
+    .banner_button a{
+        display: inline-block;
+        font-size: 14px !important;
     }
 }
 @media only screen and (max-width: 320px){
